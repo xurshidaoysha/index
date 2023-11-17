@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.continer{
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+}
+.box{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    
+    align-items: center;
+}
+.lie>h3{
+    color: #fff;
+    font-size: 15px;
+}
+.lie1{
+    width: 400px;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+left: 380px;
+}
+.lie1>h6{
+color: #fff;
+display: flex;
+justify-content: flex-end;
+
+}
+.box1{
+    width: 100%;
+    height: 260px;
+    background-image: url(./photo_2023-11-17_08-36-09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boximg{
+    width: 100%;
+    height: 260px;
+    background: rgba(0, 0, 0, 0.651);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-family: Playpen Sans;
+}
+.boximg>h1{
+    color:white;
+    font-size: 40px;
+    
+}
+.box2{
+    width: 100%;
+    height: 130px;
+    background-color:white;
+   
+}
+.box2>h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box2>p{
+    font-size: 10px;
+}
